@@ -1,0 +1,9 @@
+torch
+numpy
+pandas
+matplotlib
+sentence-transformers
+scikit-learn
+transformers
+gradio
+ipykernel
