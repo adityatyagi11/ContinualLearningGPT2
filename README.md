@@ -92,20 +92,35 @@ Memory Stored:
 
 
 [0] geography: Paris is the capital city of France....
+
 [1] programming: Python is a programming language used for AI....
+
 [2] astronomy: The Earth orbits around the Sun....
+
+
 [3] physics: Water freezes at 0 degrees Celsius....
+
 [4] literature: Shakespeare wrote Romeo and Juliet....
+
 [5] science: Einstein developed the theory of relativity....
+
 Prompt → Generated:
 
 Prompt: 'Einstein's theory'
+
+
 Generated: 'Einstein's theory of relativity. However, we can also learn about Einstein's theory of relativity'
+
+
 Retrieved Memories for Query:
 
   Memory 0: Score=1.432, Text='Einstein developed the theory of relativity....'
+
+  
   Memory 1: Score=1.381, Text='The Earth orbits around the Sun....'
+  
   Memory 2: Score=1.368, Text='Paris is the capital city of France....'
+  
 ✅ Why This Is a Strong Proof-of-Concept
 This system shows that:
 
