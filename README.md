@@ -1,4 +1,6 @@
 Continual Learning GPT-2 with Memory Bank
+
+
 This project implements a continual learning system for GPT-2 that maintains a dynamic external memory. The memory is updated based on loss improvement after encoding a new fact, and it is later retrieved and softly fused back into the model to improve generation.
 
 Overview
