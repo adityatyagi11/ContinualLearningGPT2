@@ -630,15 +630,6 @@ def test_fixed_system():
         
         logger.info(f"Model initialized on device: {model.device}")
         
-        #Initialize model
-        model = ContinualLearningGPT2('gpt2', memory_config)
-        
-        #Freeze base model parameters to prevent catastrophic forgetting
-        for param in model.gpt2.parameters():
-            param.requires_grad = False
-        
-        logger.info(f"Model initialized on device: {model.device}")
-        
         #Training examples
         training_examples = [
             ("geography", "Paris is the capital city of France."),
